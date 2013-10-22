@@ -6,3 +6,16 @@ by [Michael Hartl](http://michaelhartl.com/).
 
 Star or fork this repo if you are completing the railstutorial.org/book exercises and would like to compare your results and experience with someone else, especially for identifying bugs, errors, and setups.
 -sealocal
+
+
+Completed:
+
+Chapter 1
+
+Chapter 2
+
+Chapter 3
+
+Chapter 4
+
+Chapter 5
