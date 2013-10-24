@@ -8,8 +8,11 @@ gem 'rails', '4.0.0'
 # Bootstrap
 gem 'bootstrap-sass', '2.3.2.0'
 
+# bcrypt
+gem 'bcrypt-ruby', '3.0.1'
+
 # Use PostgreSQL as the database for Active Record
-gem 'pg', '0.15.1'
+# gem 'pg', '0.15.1'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.0'
@@ -39,6 +42,7 @@ end
 
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
+  gem 'sqlite3'
 end
 
 group :test do
