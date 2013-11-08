@@ -11,6 +11,13 @@ gem 'bootstrap-sass', '2.3.2.0'
 # bcrypt
 gem 'bcrypt-ruby', '3.0.1'
 
+# Faker
+gem 'faker', '1.1.2'
+
+# Pagination
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
+
 # Use PostgreSQL as the database for Active Record
 # gem 'pg', '0.15.1'
 
