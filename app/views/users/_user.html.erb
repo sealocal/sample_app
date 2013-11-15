@@ -1,5 +1,9 @@
 <li>
-  <%= gravatar_for user, size: 52 %>
+	<% if user.email == "local.mat@gmail.com" %>
+		<%= image_tag "https://pbs.twimg.com/profile_images/378800000508874484/00dec7fc8d8615ab283c6b2f022b3051.jpeg", {size: "70x70"} %>
+  <% else %>
+  	<%= gravatar_for user, size: 52 %>
+  <% end %>
   <%= link_to user.name, user %>
   <% if current_user.admin? && !current_user?(user) %>
     | <%= link_to "delete", user, method: :delete,
